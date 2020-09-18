@@ -1,0 +1,2 @@
+discord.py
+rotten_tomatoes_client
