@@ -1,6 +1,9 @@
 import rottentomatoesHelper
 import discord
-import constants
+from environs import Env
+
+env = Env()
+env.read_env()  # read .env file, if it exists
 
 
 class MovieBot(discord.Client):
@@ -24,4 +27,4 @@ class MovieBot(discord.Client):
 
 
 client = MovieBot()
-client.run(constants.BOT_TOKEN)
+client.run(env("BOT_TOKEN"))

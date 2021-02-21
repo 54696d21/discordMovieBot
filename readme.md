@@ -10,7 +10,7 @@ install with
 
 `pip3 install -r requirements`
 
-you need to supply your own token. To do that replace `myToken` with a valid discord token
+you need to supply your own token. To do that replace `myToken` in .env with a valid discord token
 
 # usage
 
