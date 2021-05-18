@@ -26,5 +26,6 @@ class MovieBot(discord.Client):
             await message.channel.send(retMovie)
 
 
-client = MovieBot()
-client.run(env("BOT_TOKEN"))
+if __name__ == "__main__":
+    client = MovieBot()
+    client.run(env("BOT_TOKEN"))
