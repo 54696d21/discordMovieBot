@@ -1,4 +1,4 @@
 discord.py
-rotten_tomatoes_client
-pprint
 environs
+pprint
+rotten_tomatoes_client

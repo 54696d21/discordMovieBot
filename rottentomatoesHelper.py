@@ -1,5 +1,6 @@
-from rotten_tomatoes_client import RottenTomatoesClient, TvBrowsingCategory
 from pprint import pprint
+
+from rotten_tomatoes_client import RottenTomatoesClient, TvBrowsingCategory
 
 
 def evalMovie(requestMovieName):

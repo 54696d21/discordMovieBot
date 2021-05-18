@@ -1,5 +1,5 @@
-import rottentomatoesHelper
 import discord
+import rottentomatoesHelper
 from environs import Env
 
 env = Env()
